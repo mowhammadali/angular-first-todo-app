@@ -6,4 +6,5 @@
 
 body {
     padding: 1rem;
+    color: var(--app-primary-text-color);
 }
