@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { TodoGeneratorComponent } from './components/todo-generator/todo-generator.component';
 import { ItemGrowDirective } from './directives/item-grow/item-grow.directive';
 import { TodosComponent } from './components/todos/todos.component';
+import { TodoComponent } from './components/todo/todo.component';
 
 @NgModule({
     declarations: [
@@ -15,6 +16,7 @@ import { TodosComponent } from './components/todos/todos.component';
         TodoGeneratorComponent,
         ItemGrowDirective,
         TodosComponent,
+        TodoComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],

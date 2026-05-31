@@ -1,0 +1,9 @@
+<div class="todo">
+    <section class="heading" [ngSwitch]="todo.priority">
+        <h3>{{ todo.title }}</h3>
+        <span class="badge text-bg-success" *ngSwitchCase="'low'">Low</span>
+        <span class="badge text-bg-warning" *ngSwitchCase="'medium'">Medium</span>
+        <span class="badge text-bg-danger" *ngSwitchCase="'high'">High</span>
+    </section>
+    <p>{{ todo.description }}</p>
+</div>

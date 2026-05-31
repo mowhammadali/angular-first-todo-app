@@ -7,7 +7,7 @@ import { TodoType } from '../../pages/home/home.component';
     styleUrls: ['./todos.component.css'],
 })
 export class TodosComponent {
-    @Input('todoList') todos: TodoType[] = [];
+    @Input('todoList') public todos: TodoType[] = [];
 
     constructor() {}
 }
