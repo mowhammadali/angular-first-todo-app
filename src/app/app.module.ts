@@ -6,9 +6,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TodoGeneratorComponent } from './components/todo-generator/todo-generator.component';
 import { ItemGrowDirective } from './directives/item-grow/item-grow.directive';
+import { TodosComponent } from './components/todos/todos.component';
 
 @NgModule({
-    declarations: [AppComponent, HomeComponent, TodoGeneratorComponent, ItemGrowDirective],
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        TodoGeneratorComponent,
+        ItemGrowDirective,
+        TodosComponent,
+    ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
     bootstrap: [AppComponent],

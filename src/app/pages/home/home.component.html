@@ -1,3 +1,4 @@
-<div class="container">
+<div class="container home">
     <app-todo-generator (addNewTodo)="addNewTodo($event)"></app-todo-generator>
+    <app-todos [todoList]="todos"></app-todos>
 </div>
